@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pala",
+        "categoria": "Jardineria",
+        "cantidad_disponible": 32,
+        "estado": 1,
+        "valor_estimado": 20000
+    },
+    {
+        "id": 2,
+        "nombre": "Portatil",
+        "categoria": "Sistema",
+        "cantidad_disponible": 23,
+        "estado": 1,
+        "valor_estimado": 120000
+    }
+]

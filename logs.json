@@ -1,0 +1,12 @@
+[
+    {
+        "id_log": 1,
+        "fecha_hora": "2026-02-20 09:38:34.322493",
+        "evento": "EXITO: Prestamo ID 1 creado. Devolucion: 2026-02-25"
+    },
+    {
+        "id_log": 2,
+        "fecha_hora": "2026-02-25 11:16:24.896340",
+        "evento": "ERROR: Stock insuficiente. Usuario con id: 1 Nombres Juan Sebastian Apellidos Toscano Duarte pidio 50 de ID 1"
+    }
+]
