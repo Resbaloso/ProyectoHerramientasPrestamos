@@ -368,7 +368,7 @@ Cada herramienta se registra con los siguientes atributos:
 | `nombre` | Nombre de la herramienta. |
 | `categoria` | Categoria a la que pertenece. |
 | `cantidad_disponible`| Stock |
-| `estado` | 1: Activa | 2: En reparación | 3: Fuera de servicio. |
+| `estado` | 1: Activa 2: En reparación 3: Fuera de servicio. |
 | `valor_estimado` | El valor del prestamo. |
 
 Y basicamente así funcionan las demas partes del proyecto.
