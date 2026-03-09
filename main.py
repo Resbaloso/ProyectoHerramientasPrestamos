@@ -2,7 +2,7 @@ from menu_principal import menuUsuario, menuAdmin
 from validaciones import validarMenu
 import time
 from log import registrar_log
-
+from gestionarJson import cargar, guardar
 print("Iniciando sistema...")
 time.sleep(1)
 print("[##        ] 20%")
@@ -36,8 +36,9 @@ def menuMain():
         if op==3: 
             break
 
-contraseña=input('Ingrese la clave para cargar el menú principal: ')
-if contraseña=='flo75689':
+clave_sistema="1234"
+clave_pedida=input('Ingrese la clave para cargar el menú principal: ')
+if clave_pedida==clave_sistema:
     menuMain()
 else:
     print(' Acceso denegado, clave incorrecta')
