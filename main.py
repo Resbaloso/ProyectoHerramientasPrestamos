@@ -36,9 +36,14 @@ def menuMain():
         if op==3: 
             break
 
-clave_sistema="1234"
-clave_pedida=input('Ingrese la clave para cargar el menú principal: ')
-if clave_pedida==clave_sistema:
+
+clave_sistema = int(input("Ingrese la clave del sistema requerida: "))
+
+
+clave_pedida = int(input("Ingrese la clave para cargar el menú principal: "))
+
+if clave_pedida == clave_sistema:
+    print("Acceso concedido")
     menuMain()
 else:
-    print(' Acceso denegado, clave incorrecta')
+    print("Acceso denegado, clave incorrecta. Intente nuevamente")
